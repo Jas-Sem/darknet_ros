@@ -19,7 +19,7 @@ def generate_launch_description():
 
   declare_image_cmd = DeclareLaunchArgument(
     'image',
-    default_value = '/camera/rgb/image_raw',
+    default_value = '/carla/ego2/camera_front/image',
     description = 'Image topic')
   declare_yolo_weights_path_cmd = DeclareLaunchArgument(
     'yolo_weights_path',
